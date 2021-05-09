@@ -2,10 +2,10 @@ default:
 	nvcc main.cu -o main
 
 run: default
-	./main.exe
+	./main
 
 prof: default
-	nvprof ./main.exe
+	nvprof ./main
 
 mem: default
-	cuda-memcheck ./main.exe
+	cuda-memcheck ./main
