@@ -1,0 +1,7 @@
+.vscode
+.ignore
+
+main
+main.exe
+main.exp
+main.lib
